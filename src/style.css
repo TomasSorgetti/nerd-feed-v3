@@ -1,1 +1,59 @@
 @import "tailwindcss";
+
+@theme {
+  --color-background: #ffffff;
+  --color-background-bis: #fbfaf9;
+
+  --color-primary: #37322f;
+  --color-primary-hover: #3b3736;
+  --color-primary-active: #5e5756;
+
+  --color-secondary: #605a57;
+  --color-secondary-hover: #4e4947;
+  --color-secondary-active: #9b9491;
+
+  --color-tertiary: #201e1d;
+  --color-accent: #e16741;
+
+  --color-text-heading: #37322f;
+  --color-text: #605a57;
+  --color-text-invert: #fbfaf9;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2rem;
+  --text-5xl: 2.5rem;
+  --text-6xl: 3rem;
+  --text-7xl: 3.5rem;
+  --text-8xl: 4rem;
+}
+
+.max-w-7xl {
+  max-width: 75rem;
+}
+.rounded-5xl {
+  border-radius: 2.5rem;
+}
+.rounded-t-5xl {
+  border-top-left-radius: 2.5rem;
+  border-top-right-radius: 2.5rem;
+}
+.rounded-lg {
+  border-radius: 0.625rem;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px var(--background) inset !important;
+  box-shadow: 0 0 0px 1000px var(--background) inset !important;
+  -webkit-text-fill-color: var(--text) !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
