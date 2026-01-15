@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomePage from "../pages/HomePage.vue";
+import FeedPage from "../pages/FeedPage.vue";
 import LoginPage from "../pages/auth/LoginPage.vue";
 import RegisterPage from "../pages/auth/RegisterPage.vue";
 import NotFound from "../pages/error/NotFound.vue";
@@ -9,6 +10,10 @@ const routes = [
   {
     path: "/",
     component: HomePage,
+  },
+  {
+    path: "/feed",
+    component: FeedPage,
   },
   {
     path: "/auth/signin",

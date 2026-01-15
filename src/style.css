@@ -19,6 +19,8 @@
   --color-text: #605a57;
   --color-text-invert: #fbfaf9;
 
+  --color-border: oklch(0.269 0 0);
+
   --text-xs: 0.75rem;
   --text-sm: 0.875rem;
   --text-base: 1rem;

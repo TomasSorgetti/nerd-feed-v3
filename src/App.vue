@@ -1,13 +1,7 @@
-<script setup>
-import Navbar from "./components/layouts/Navbar.vue";
-</script>
+<script setup></script>
 
 <template>
   <div class="min-h-screen">
-    <Navbar />
-
-    <main>
-      <router-view />
-    </main>
+    <router-view />
   </div>
 </template>
